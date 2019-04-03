@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>To to list (jquery)</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>List</h1>
+		<div class="add-task">
+			<form>
+				<input type="text" class='content' action="javascript: return false">
+				<button class='addTaskSummit'>submit</button>
+			</form>
+		</div>
+		<div class="task-list">
+			
+		</div>
+		<div class="task-detail">
+			<input type="text" class="detail-content" />
+			<span style="font-size: 16px;color:white;"> 备注</span>
+			<textarea class="desc"></textarea>
+			<span style="font-size: 16px;color:white;"> 设置闹钟</span>
+			<input type="text" class="datetime" />
+			<button class="detail-submit">提交</button>
+		</div>
+	</div>
+        <!--jquery-->
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<!--datetimepicker-->
+		<script src="js/jquery.datetimepicker.full.js" type="text/javascript" charset="utf-8"></script>
+		<!--store.js-->
+		<script src="js/store.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

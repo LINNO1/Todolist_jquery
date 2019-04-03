@@ -1,0 +1,101 @@
+* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			outline: 0;
+		}
+		body {
+			background-color: #00334B;
+			color: white;
+		}
+		h1 {
+			text-align: center;
+		}
+		.container {
+			max-width: 700px;
+			margin: 0 auto;
+			
+		}
+		.content,.addTaskSummit {
+	        border: none;
+            border-radius: 3px;
+            padding: 10px 0;
+            font-size: 20px;
+		}
+		.add-task .content {
+			width: 84%;
+			float: left;
+			margin-right: 1%;
+		}
+		.add-task .addTaskSummit {
+			width: 15%;
+			background-color: #0e98da;
+			cursor: pointer;
+			font-size: 20px;
+		}
+		.add-task .addTaskSummit:hover {			
+			background-color: #0e9800;
+		}
+
+
+
+		/*********************************************/
+		.task-list {
+			width: 100%;
+			color: black;
+			margin-top: 10px;
+
+
+		}
+		.task-list .list-item {
+           background-color: white;
+           padding: 10px;
+           margin-bottom: 10px;
+           border-radius: 10px;
+		}
+		.task-list .list-item:hover {
+			background-color: #ccc;
+		}
+		.task-list .item-cotent {
+
+		}
+		.task-list .fr {
+			float: right;
+			font-size: 20px;
+
+		}
+		.fr .action {
+            cursor: pointer;
+            color: #888;
+	     }
+		.fr .action:hover {
+            color: black;
+		}
+
+   /*********************************************/
+		.task-detail{
+			display: none;
+    		width: 300px;
+    		background-color: #524141;
+    		border-radius: 6px;
+    		color: white;
+    		padding: 20px;
+    		position: fixed;
+    		right: calc(50vw - 150px);
+    		top: 100px;
+		}
+		.detail-content,.datetime,.desc{
+			background-color: #ddd;
+			width: 100%;			
+			margin-bottom: 20px;
+			padding: 3px;
+		}
+		.detail-content,.datetime {
+			max-height: 100px;
+		}
+		.desc{
+				height: 100px;
+			
+		}
